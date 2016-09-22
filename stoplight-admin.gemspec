@@ -30,7 +30,7 @@ Gem::Specification.new do |gem|
     'redis' => '3.2',
     'sinatra' => '1.4',
     'sinatra-contrib' => '1.4',
-    'stoplight' => '1.4'
+    'stoplight' => '2.1'
   }.each do |name, version|
     gem.add_dependency(name, "~> #{version}")
   end
